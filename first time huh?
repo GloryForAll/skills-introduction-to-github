@@ -1,0 +1,6 @@
+y = input("Is this your first time doing this? ").strip().casefold()
+
+if y.startswith("yes"):
+  print("Nice! cant wait till you become a master at this")
+elif y.startswith("no"):
+  print("Okay, I see your an expert.. is ther anything you can teach me?")
